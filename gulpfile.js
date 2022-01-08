@@ -93,3 +93,12 @@ gulp.task("build-prod-js", () => {
 });
 
 gulp.task("default", gulp.parallel("watch", "build"));
+
+gulp.task('serve', function() {
+  browsersync.init({
+		server: "./dist/",
+		port: 5000
+  })
+
+  gulp.watch(['*.html', 'assets/css/*.css', '*.js', './*.html', 'assets/slick/*.js'], {cwd: 'app'});
+});
