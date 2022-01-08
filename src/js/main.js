@@ -6,6 +6,7 @@ import changeModalState from './modules/changeModalState';
 import timer from './modules/timer';
 import images from './modules/images';
 
+
 window.addEventListener('DOMContentLoaded', () => {
     "use strict";
 
