@@ -26,7 +26,19 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "express": "^4.17.2",
     "jquery": "^3.6.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.27.7",
+    "core-js": "^3.20.2",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "webpack": "^5.65.0",
+    "webpack-stream": "^7.0.0"
   }
 }
