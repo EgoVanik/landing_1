@@ -93,11 +93,3 @@ gulp.task("build-prod-js", () => {
 });
 
 gulp.task("default", gulp.parallel("watch", "build"));
-
-gulp.task('serveprod', function() {
-  connect.server({
-  root: "./dist/index.html",
-  port: process.env.PORT || 5000, // localhost:5000
-  livereload: false
-  });
-  });
